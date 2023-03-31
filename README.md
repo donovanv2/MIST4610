@@ -1,20 +1,19 @@
-# MIST4610
-Group Project 1
+# MIST4610 Group Project 1
 
 Group # 21479_8
 
-Members:
-- Donovan Vanderpool (me) https://github.com/donovanv2/MIST4610/ 
-- Emma Dolson https://github.com/eld49325/EmmaDolson_MIST4610GroupProject1
-- Hannah Kelly https://github.com/hannahkelly98765/MIST-4610
-- Shir Kochi https://github.com/shirkorchi/GroupProject1
-- Kaden Williams (insert link)
+# Members:
+- Donovan Vanderpool
+- [Emma Dolson](https://github.com/eld49325/EmmaDolson_MIST4610GroupProject1)
+- [Hannah Kelly](https://github.com/hannahkelly98765/MIST-4610)
+- [Shir Kochi](https://github.com/shirkorchi/GroupProject1)
+- [Kaden Williams](https://github.com/kadenwilliams1/21479_-8)
 
-PROBLEM DESCRIPTION
+# PROBLEM DESCRIPTION
 
 Our data model represents the social media app, Instagram. The model consists of user accounts, which have associated profiles, content, and followers/following relationships. Each post can have multiple associated media, such as images or videos, which users can interact with through likes, comments, and shares. Instagram also supports messaging between users and the creation of stories, which are temporary posts that expire after a set time period. Tracking user activity helps Instagram generate personalized recommendations and trends to improve user experience. Despite being one of the most popular social media platforms in the world, Instagram does not allow its users to schedule posts in advance or to create communities of niche interests. From a backend perspective, our model demonstrates how users would interact with these two features and new insights Instagram could gain from them.
 
-DATA MODEL
+# DATA MODEL
 
 ![image](https://user-images.githubusercontent.com/129460719/228989935-6fdb6b22-255a-4931-9141-fa0d99884e57.png)
 
@@ -22,11 +21,11 @@ DATA MODEL
 
 M:M Relationships: accounts can belong to many communities and communities can have many accounts, communities can have many community types and community types can have many communities
 
-DATA DICTIONARY
+# DATA DICTIONARY
 
 [Data.Dictionary.pdf](https://github.com/donovanv2/MIST4610/files/11117019/Data.Dictionary.pdf)
 
-QUERIES
+# QUERIES
 
 TP_Q1: This query converts the user's date of birth into their age as an integer and then returns the names of users who are younger than the input age. A query like this is helpful for censoring content like rated R movie trailers or explicit music for underage users.
 
@@ -69,11 +68,11 @@ TP_Q10: This query returns the number of shares for each content type. A manager
 
 ![image](https://user-images.githubusercontent.com/129460719/229162581-0c6b3c69-814e-4378-a8ea-7805f8de9449.png)
 
-QUERY MATRIX
+# QUERY MATRIX
 
 ![Screenshot (73)](https://user-images.githubusercontent.com/129460719/229194749-404c2315-52e5-4e91-b94c-0162a9dfbd68.png)
 
-DATABASE INFORMATION
+# DATABASE INFORMATION
 
 - ns_21479_8
 - Procedure format: TP_QX
