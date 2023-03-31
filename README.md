@@ -57,3 +57,6 @@ TP_Q9: This query returns the account type and number of times each account type
 
 TP_Q10
 
+DATABASE INFORMATION
+
+ns_21479_8
