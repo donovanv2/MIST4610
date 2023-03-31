@@ -37,13 +37,21 @@ TP_Q2: This query returns the username of accounts that have more followers than
 
 ![image](https://user-images.githubusercontent.com/129460719/228990847-9a50728d-7a35-4141-bfb0-48994db87149.png)
 
-TP_Q3
+TP_Q3: This query returns the number of messages a community has sent if the message was sent during the day (12:00-18:00). A query like this is can be helpful in determining when communities are most active or when messaging servers could potentially reach capacity. 
 
-TP_Q4
+![image](https://user-images.githubusercontent.com/129460719/229161944-acbf5ff2-66db-4976-a5c7-8bbf8b8b4e45.png)
 
-TP_Q5
+TP_Q4: This query returns the number of messages each account has sent in descending order given that the account has more than 500 followers. A manager may be interested in this data to gauge how active a particular account is.
 
-TP_Q6
+![image](https://user-images.githubusercontent.com/129460719/229162104-b7ed3827-d062-480d-bb7a-4d5e41690fda.png)
+
+TP_Q5: This query returns the account handles that start with the letter "c," if any, as well as the name of the corresponding user and the community they belong to. A manager may be interested in this data to view information about accounts with related names quickly (by replacing “c” with whichever letter they choose).
+
+![image](https://user-images.githubusercontent.com/129460719/229162207-a1ffe2e8-16c7-4c60-b6d8-d44b3e5d1825.png)
+
+TP_Q6: This query returns all attributes pertaining to accounts and the community they're a part of if the account uses content scheduling. A query like this may be helpful in determining certain attributes (type of account, number of posts, etc.) that may play a factor in determining whether or not the account uses the content scheduling feature.
+
+![image](https://user-images.githubusercontent.com/129460719/229162311-4271d6ac-1cc7-429e-a6aa-70c7b883f5f6.png)
 
 TP_Q7: This query will list the name and DOB of users that send messages with vanish mode and use content scheduling in order of oldest to youngest. A query like this is useful for tracking the use of some of the new features on Instagram.
 
@@ -55,8 +63,17 @@ TP_Q8: This query will list accounts’ ID, handle, and the user’s name and em
 
 TP_Q9: This query returns the account type and number of times each account type schedules content. A query like this could be helpful for adding possible features that cater towards account types that are frequent users of the content scheduler (ex. If a sports team has games every Saturday at noon, they can schedule a recurring post for each week of the season).
 
-TP_Q10
+![image](https://user-images.githubusercontent.com/129460719/229162414-a116c7be-4036-405d-b00e-b2585ed813a4.png)
+
+TP_Q10: This query returns the number of shares for each content type. A manager may be interest in this data to determine what type of content is shared the most among users (could be useful for ad monetization, promotions, etc.).
+
+![image](https://user-images.githubusercontent.com/129460719/229162581-0c6b3c69-814e-4378-a8ea-7805f8de9449.png)
+
+QUERY MATRIX
+
+![image](https://user-images.githubusercontent.com/129460719/229162916-896e788c-7998-4282-87e0-e904c9a65c90.png)
 
 DATABASE INFORMATION
 
-ns_21479_8
+- ns_21479_8
+- Procedure format: TP_QX
