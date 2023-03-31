@@ -2,7 +2,7 @@
 
 Group # 21479_8
 
-# Members:
+# Members
 - Donovan Vanderpool
 - [Emma Dolson](https://github.com/eld49325/EmmaDolson_MIST4610GroupProject1)
 - [Hannah Kelly](https://github.com/hannahkelly98765/MIST-4610)
